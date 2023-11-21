@@ -1,0 +1,1376 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1.5px;
+    scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    background: gray;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: black;
+    border: 3px solid gray;
+}
+
+nav.navbar {
+    background-color: rgba(0, 0, 0, 0.900);
+    border-bottom: solid #00BAE4 1px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    transition: background-color 0.3s ease-in-out;
+    transition: border-bottom 0.3s ease-in-out;
+}
+
+a.nav-link {
+    color: white;
+    font-weight: normal;
+}
+
+a.nav-link:hover {
+    color: #00BAE4;
+}
+
+i.bi-list {
+    color: white;
+}
+
+a.dropdown-item:hover{
+    background-color:  rgba(0, 0, 0, 0.600) !important;
+    color: #00BAE4;
+}  
+
+i.bi-globe-americas:hover{
+    color: #00BAE4;
+}
+
+section.sect-home {
+    width: 100%;
+    height: 577px;
+    background-image: url("/imagens/bg_pg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #212529;
+}
+
+div.informacoes-home-alb {
+    position: relative;
+    top: 35%;
+    margin: 0 10%;
+}
+
+section.sect-home h3 {
+    color: white;
+    font-size: 210%;
+    text-align: left;
+    font-weight: bold;
+}
+
+section.sect-home h5 {
+    color: #00BAE4;
+    font-size: 170%;
+    text-align: left;
+    font-weight: normal;
+    padding: 10px 0 0 0;
+}
+
+div.pag-numero {
+    margin: 0 auto;
+    background-color: #00BAE4;
+    width: 140px;
+    height: 80px;
+    line-height: 80px;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    border-radius: 0 0 25px 25px;
+}
+
+.h3-numero {
+    position: relative;
+    top: 30%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-weight: bold;
+    padding: 20px 0 0 0;
+    font-size: 80%;
+}
+
+.h3-numero-comp-eng {
+    color: #fff;
+    font-weight: bold;
+    padding: 15px 0 0 0;
+    font-size: 80%;
+}
+
+.h3-numero-comp {
+    position: relative;
+    top: 30%;
+    left: 25%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-weight: bold;
+    padding: 20px 0 0 0;
+    font-size: 80%;
+}
+
+section.sect-sobre {
+    width: 100%;
+    height: 890px;
+    background-color: black;
+}
+
+.alb-sect-sobre-informacoes .informacoes-sobre {
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+    position: relative;
+
+    -webkit-box-sizing: border-box;
+    /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;
+    /* Firefox, other Gecko */
+    box-sizing: border-box;
+    /* Opera/IE 8+ */
+}
+
+.alb-sect-sobre-informacoes .caixa-esquerda {
+    width: 45%;
+    float: right;
+    height: auto;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-image: url(..//imagens/retrato_alb_bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.alb-sect-sobre-informacoes .caixa-direita {
+    width: 65%;
+    float: left;
+    padding: 75px 65px 15px 65px;
+
+    -webkit-box-sizing: border-box;
+    /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;
+    /* Firefox, other Gecko */
+    box-sizing: border-box;
+    /* Opera/IE 8+ */
+}
+
+.alb-sect-sobre-informacoes .caixa-direita .name_titulo {
+    margin-bottom: 25px;
+}
+
+.alb-sect-sobre-informacoes .caixa-direita .name_titulo h3 {
+    color: #fff;
+}
+
+.alb-sect-sobre-informacoes .caixa-direita .definicao p {
+    color: #eee;
+    margin-bottom: 20px;
+}
+
+.alb-sect-sobre-informacoes .caixa-direita ul {
+    margin: 0px;
+    list-style-type: none;
+}
+
+.alb-sect-sobre-informacoes .caixa-direita ul li {
+    margin: 0px 9px 0px 0px;
+    display: inline-block;
+}
+
+.alb-sect-sobre-informacoes .caixa-direita ul li span {
+    color: #fff;
+    padding-right: 12px;
+    font-size: 16px;
+}
+
+.alb-sect-sobre-informacoes .caixa-direita ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.alb-sect-sobre-informacoes .caixa-direita ul li a:hover {
+    color: #00b8e4;
+}
+
+.empresa-participacao {
+    padding-left: 12%;
+}
+
+.img_sobre_alb {
+    float: left;
+    width: 160px;
+    margin: 0 10px 0 0;
+    opacity: 0.5;
+    transition: all 0.5s ease-out;
+}
+
+.img_sobre_alb:hover {
+    opacity: 1;
+    transition: all 0.5s ease-out;
+}
+
+.contato-alb-sobre {
+    text-decoration: none;
+    color: white;
+}
+
+.contato-alb-sobre:hover {
+    color: #00b8e4;
+}
+
+section.sect-competencias {
+    width: 100%;
+    height: 775px;
+    background-color: #060606;
+}
+
+div.alb-competencias-div {
+    position: relative;
+    top: 115px;
+    width: 97.5%;
+    height: auto;
+    clear: both;
+    float: left;
+
+    -webkit-box-sizing: border-box;
+    /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;
+    /* Firefox, other Gecko */
+    box-sizing: border-box;
+    /* Opera/IE 8+ */
+}
+
+.alb-competencias-div>ul.total-competencias {
+    margin: 0px;
+    list-style-type: none;
+}
+
+.alb-competencias-div>ul.total-competencias>li {
+    margin: 0px;
+    float: left;
+
+    -webkit-box-sizing: border-box;
+    /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;
+    /* Firefox, other Gecko */
+    box-sizing: border-box;
+    /* Opera/IE 8+ */
+}
+
+.alb-competencias-div>ul.total-competencias>li .lista-competencias-alb {
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+    position: relative;
+
+    -webkit-box-sizing: border-box;
+    /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;
+    /* Firefox, other Gecko */
+    box-sizing: border-box;
+    /* Opera/IE 8+ */
+}
+
+.alb-competencias-div[coluna="1"] ul.total-competencias>li {
+    width: 100%;
+}
+
+.alb-competencias-div[coluna="2"] ul.total-competencias>li {
+    width: 50%;
+}
+
+.alb-competencias-div[coluna="3"] ul.total-competencias>li {
+    width: 33.3333%;
+}
+
+.alb-competencias-div[coluna="4"] ul.total-competencias>li {
+    width: 25%;
+}
+
+.alb-competencias-div[coluna="5"] ul.total-competencias>li {
+    width: 20%;
+}
+
+.alb-competencias-div[espaco="0"] ul.total-competencias {
+    margin-left: 0px;
+}
+
+.alb-competencias-div[espaco="1"] ul.total-competencias {
+    margin-left: 1px;
+}
+
+.alb-competencias-div[espaco="2"] ul.total-competencias {
+    margin-left: 2px;
+}
+
+.alb-competencias-div[espaco="3"] ul.total-competencias {
+    margin-left: 3px;
+}
+
+.alb-competencias-div[espaco="4"] ul.total-competencias {
+    margin-left: 4px;
+}
+
+.alb-competencias-div[espaco="5"] ul.total-competencias {
+    margin-left: 5px;
+}
+
+.alb-competencias-div[espaco="10"] ul.total-competencias {
+    margin-left: -10px;
+}
+
+.alb-competencias-div[espaco="20"] ul.total-competencias {
+    margin-left: -20px;
+}
+
+.alb-competencias-div[espaco="30"] ul.total-competencias {
+    margin-left: -30px;
+}
+
+.alb-competencias-div[espaco="40"] ul.total-competencias {
+    margin-left: -40px;
+}
+
+.alb-competencias-div[espaco="50"] ul.total-competencias {
+    margin-left: -50px;
+}
+
+.alb-competencias-div[espaco="60"] ul.total-competencias {
+    margin-left: -60px;
+}
+
+.alb-competencias-div[espaco="70"] ul.total-competencias {
+    margin-left: -70px;
+}
+
+.alb-competencias-div[espaco="80"] ul.total-competencias {
+    margin-left: -80px;
+}
+
+.alb-competencias-div[espaco="0"] ul.total-competencias>li {
+    padding: 0px;
+}
+
+.alb-competencias-div[espaco="1"] ul.total-competencias>li {
+    padding-left: 1px;
+    margin-bottom: 1px;
+}
+
+.alb-competencias-div[espaco="2"] ul.total-competencias>li {
+    padding-left: 2px;
+    margin-bottom: 2px;
+}
+
+.alb-competencias-div[espaco="3"] ul.total-competencias>li {
+    padding-left: 3px;
+    margin-bottom: 3px;
+}
+
+.alb-competencias-div[espaco="4"] ul.total-competencias>li {
+    padding-left: 4px;
+    margin-bottom: 4px;
+}
+
+.alb-competencias-div[espaco="5"] ul.total-competencias>li {
+    padding-left: 5px;
+    margin-bottom: 5px;
+}
+
+.alb-competencias-div[espaco="10"] ul.total-competencias>li {
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.alb-competencias-div[espaco="20"] ul.total-competencias>li {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.alb-competencias-div[espaco="30"] ul.total-competencias>li {
+    padding-left: 30px;
+    margin-bottom: 30px;
+}
+
+.alb-competencias-div[espaco="40"] ul.total-competencias>li {
+    padding-left: 40px;
+    margin-bottom: 40px;
+}
+
+.alb-competencias-div[espaco="50"] ul.total-competencias>li {
+    padding-left: 50px;
+    margin-bottom: 50px;
+}
+
+.alb-competencias-div[espaco="60"] ul.total-competencias>li {
+    padding-left: 60px;
+    margin-bottom: 60px;
+}
+
+.alb-competencias-div[espaco="70"] ul.total-competencias>li {
+    padding-left: 70px;
+    margin-bottom: 70px;
+}
+
+.alb-competencias-div[espaco="80"] ul.total-competencias>li {
+    padding-left: 80px;
+    margin-bottom: 80px;
+}
+
+.competencias-alb-icone {
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.competencias-alb-icone svg {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    color: #00BAE4;
+}
+
+ul.total-competencias .lista-competencias-alb span {
+    position: absolute;
+}
+
+ul.total-competencias .lista-competencias-alb .borda-primeiro-lado {
+    top: 0px;
+    left: 0px;
+}
+
+ul.total-competencias .lista-competencias-alb .borda-primeiro-lado:before {
+    position: absolute;
+    content: "";
+    width: 0px;
+    height: 2px;
+    background-color: #fff;
+
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+ul.total-competencias .lista-competencias-alb .borda-primeiro-lado:after {
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 0px;
+    background-color: #fff;
+
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+ul.total-competencias .lista-competencias-alb .borda-segundo-lado {
+    bottom: -40px;
+    right: 0px;
+    transform: rotate(180deg);
+}
+
+ul.total-competencias .lista-competencias-alb .borda-segundo-lado:before {
+    position: absolute;
+    content: "";
+    width: 0px;
+    height: 2px;
+    background-color: #fff;
+
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+ul.total-competencias .lista-competencias-alb .borda-segundo-lado:after {
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 0px;
+    background-color: #fff;
+
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+ul.total-competencias li:hover .lista-competencias-alb .borda-primeiro-lado:after {
+    height: 20px;
+}
+
+ul.total-competencias li:hover .lista-competencias-alb .borda-primeiro-lado:before {
+    width: 20px;
+}
+
+ul.total-competencias li:hover .lista-competencias-alb .borda-segundo-lado:after {
+    height: 20px;
+}
+
+ul.total-competencias li:hover .lista-competencias-alb .borda-segundo-lado:before {
+    width: 20px;
+}
+
+.servicos_titulo {
+    margin-bottom: 20px;
+}
+
+.servicos_titulo h3 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.servicos_definicao p {
+    color: #eee;
+    text-align: center;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+section.sect-contato {
+    width: 100%;
+    height: 400px;
+    background-color: black;
+}
+
+div.informacoes-contato {
+    position: relative;
+    top: 45%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+}
+
+div.informacoes-contato h6 {
+    color: white;
+    text-align: center;
+}
+
+.informacoes-contato a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.informacoes-contato a:hover {
+    color: #00BAE4;
+}
+
+footer {
+    font-size: 85%;
+    padding: 2%;
+    color: white;
+    text-align: center;
+    background-color: #060606;
+    font-weight: normal;
+}
+
+@media (max-width: 1920px) {
+    section.sect-sobre {
+        height: 750px;
+    }
+
+    section.sect-competencias{
+        height: 750px;
+    }
+
+    .alb-sect-sobre-informacoes .caixa-esquerda {
+        width: 40%;
+        float: right;
+        height: auto;
+        position: absolute;
+        top: 5%;
+        right: 0px;
+        bottom: 0px;
+        background-image: url(..//imagens/retrato_alb_bg.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media (max-width: 1440px) {
+    section.sect-sobre {
+        height: 815px;
+    }
+
+    section.sect-competencias{
+        height: 775px;
+    }
+}
+
+@media (max-width: 1280px) {
+    section.sect-sobre {
+        height: 875px;
+    }
+}
+
+
+@media (max-width: 1200px) {
+    .alb-sect-sobre-informacoes .caixa-direita {
+        padding: 0px 70px 0px 0px;
+    }
+
+    .alb-sect-sobre-informacoes .caixa-direita {
+        width: 95%;
+        padding: 65px 0 0 0;
+        margin-left: 15px;
+    }
+
+    .img_sobre_alb {
+        float: center;
+        width: 20%;
+        margin: 0 10px 0 0;
+        opacity: 0.5;
+        transition: all 0.5s ease-out;
+    }
+
+    section.sect-competencias {
+        height: 1750px;
+    }
+
+    .alb-competencias-div[coluna="1"] ul.total-competencias>li {
+        width: 100%;
+    }
+
+    .alb-competencias-div[coluna="2"] ul.total-competencias>li {
+        width: 100%;
+    }
+
+    .alb-competencias-div[coluna="3"] ul.total-competencias>li {
+        width: 100%;
+    }
+
+    .alb-competencias-div[coluna="4"] ul.total-competencias>li {
+        width: 100%;
+    }
+
+    .alb-competencias-div[coluna="5"] ul.total-competencias>li {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1040px) {
+    section.sect-sobre {
+        height: 780px;
+    }
+
+    .alb-sect-sobre-informacoes .caixa-direita {
+        padding: 0px 50px 0px 0px;
+    }
+
+    .alb-sect-sobre-informacoes .caixa-esquerda {
+        display: none;
+    }
+
+    .alb-sect-sobre-informacoes .caixa-direita {
+        width: 95%;
+        padding: 65px 0 0 0;
+        margin-left: 10px;
+    }
+
+    .alb-sect-sobre-informacoes .caixa-direita .name_titulo {
+        text-align: center;
+    }
+
+    .alb-sect-sobre-informacoes .definicao {
+        text-align: center;
+    }
+
+    .alb-sect-sobre-informacoes .sect-sobre-informacoes .caixa-direita {
+        padding-left: 0px;
+    }
+
+    .img_sobre_alb {
+        float: left;
+        width: 160px;
+        margin: 12px;
+        opacity: 0.5;
+        transition: all 0.5s ease-out;
+    }
+
+    .alb-competencias-div[coluna="1"] ul.total-competencias>li {
+        width: 100%;
+    }
+
+    .alb-competencias-div[coluna="2"] ul.total-competencias>li {
+        width: 100%;
+    }
+
+    .alb-competencias-div[coluna="3"] ul.total-competencias>li {
+        width: 100%;
+    }
+
+    .alb-competencias-div[coluna="4"] ul.total-competencias>li {
+        width: 100%;
+    }
+
+    .alb-competencias-div[coluna="5"] ul.total-competencias>li {
+        width: 100%;
+    }
+}
+
+@media (max-width: 912px) {    
+
+    .alb-competencias-div[coluna="1"] ul.total-competencias>li {
+        width: 99%;
+    }
+
+    .alb-competencias-div[coluna="2"] ul.total-competencias>li {
+        width: 99%;
+    }
+
+    .alb-competencias-div[coluna="3"] ul.total-competencias>li {
+        width: 99%;
+    }
+
+    .alb-competencias-div[coluna="4"] ul.total-competencias>li {
+        width: 99%;
+    }
+
+    .alb-competencias-div[coluna="5"] ul.total-competencias>li {
+        width: 99%;
+    }
+}
+
+@media (max-width: 820px) {
+    section.sect-sobre {
+        height: 910px;
+    }
+
+    .alb-sect-sobre-informacoes .caixa-esquerda {
+        display: none;
+    }
+
+    .alb-sect-sobre-informacoes .caixa-direita {
+        width: 95%;
+        padding: 65px 0 0 0;
+        margin-left: 10px;
+    }
+
+    .alb-sect-sobre-informacoes .caixa-direita .name_titulo {
+        text-align: center;
+    }
+
+    .alb-sect-sobre-informacoes .definicao {
+        text-align: center;
+    }
+
+    .alb-sect-sobre-informacoes .sect-sobre-informacoes .caixa-direita {
+        padding-left: 0px;
+    }
+
+    .empresa-participacao {
+        padding-left: 0%;
+        margin: 10px;
+    }
+
+    .img_sobre_alb {
+        float: left;
+        width: 22%;
+        margin: 10px;
+        opacity: 0.5;
+        transition: all 0.5s ease-out;
+    }
+
+    .contato-alb-sobre {
+        font-weight: bold;
+        text-decoration: underline;
+        color: #00b8e4;
+    }
+
+    .alb-competencias-div[coluna="1"] ul.total-competencias>li {
+        width: 99%;
+    }
+
+    .alb-competencias-div[coluna="2"] ul.total-competencias>li {
+        width: 99%;
+    }
+
+    .alb-competencias-div[coluna="3"] ul.total-competencias>li {
+        width: 99%;
+    }
+
+    .alb-competencias-div[coluna="4"] ul.total-competencias>li {
+        width: 99%;
+    }
+
+    .alb-competencias-div[coluna="5"] ul.total-competencias>li {
+        width: 99%;
+    }
+
+    .informacoes-contato a {
+        font-weight: bold;
+        color: #00BAE4;
+        text-decoration: underline;
+    }
+}
+
+@media (max-width: 768px) {
+    .alb-sect-sobre-informacoes .caixa-esquerda {
+        display: none;
+    }
+
+    .alb-sect-sobre-informacoes .caixa-direita {
+        width: 95%;
+        padding: 65px 0 0 0;
+        margin-left: 10px;
+    }
+
+    .alb-sect-sobre-informacoes .caixa-direita .name_titulo {
+        text-align: center;
+    }
+
+    .alb-sect-sobre-informacoes .definicao {
+        text-align: center;
+    }
+
+    .alb-sect-sobre-informacoes .sect-sobre-informacoes .caixa-direita {
+        padding-left: 0px;
+    }
+
+    .contato-alb-sobre {
+        font-weight: bold;
+        text-decoration: underline;
+        color: #00b8e4;
+    }
+
+    .alb-competencias-div[coluna="1"] ul.total-competencias>li {
+        width: 98%;
+    }
+
+    .alb-competencias-div[coluna="2"] ul.total-competencias>li {
+        width: 98%;
+    }
+
+    .alb-competencias-div[coluna="3"] ul.total-competencias>li {
+        width: 98%;
+    }
+
+    .alb-competencias-div[coluna="4"] ul.total-competencias>li {
+        width: 98%;
+    }
+
+    .alb-competencias-div[coluna="5"] ul.total-competencias>li {
+        width: 98%;
+    }
+
+    .informacoes-contato a {
+        font-weight: bold;
+        color: #00BAE4;
+        text-decoration: underline;
+    }
+}
+
+@media (max-width: 696px) {
+    section.sect-sobre {
+        height: 1100px;
+    }
+
+    .img_sobre_alb {
+        float: left;
+        width: 21%;
+        margin: 12px;
+        opacity: 0.5;
+        transition: all 0.5s ease-out;
+    }
+
+    .contato-alb-sobre {
+        font-weight: bold;
+        text-decoration: underline;
+        color: #00b8e4;
+    }
+
+    .informacoes-contato a {
+        font-weight: bold;
+        color: #00BAE4;
+        text-decoration: underline;
+    }
+}
+
+@media (max-width: 653px) {
+    .alb-sect-sobre-informacoes .caixa-esquerda {
+        display: none;
+    }
+
+    .alb-sect-sobre-informacoes .caixa-direita {
+        width: 95%;
+        padding: 65px 0 0 0;
+        margin-left: 10px;
+    }
+
+    .alb-sect-sobre-informacoes .caixa-direita .name_titulo {
+        text-align: center;
+    }
+
+    .alb-sect-sobre-informacoes .definicao {
+        text-align: center;
+    }
+
+    .alb-sect-sobre-informacoes .sect-sobre-informacoes .caixa-direita {
+        padding-left: 0px;
+    }
+
+    .contato-alb-sobre {
+        font-weight: bold;
+        text-decoration: underline;
+        color: #00b8e4;
+    }
+
+    .alb-competencias-div[coluna="1"] ul.total-competencias>li {
+        width: 100%;
+    }
+
+    .alb-competencias-div[coluna="2"] ul.total-competencias>li {
+        width: 100%;
+    }
+
+    .alb-competencias-div[coluna="3"] ul.total-competencias>li {
+        width: 100%;
+    }
+
+    .alb-competencias-div[coluna="4"] ul.total-competencias>li {
+        width: 100%;
+    }
+
+    .alb-competencias-div[coluna="5"] ul.total-competencias>li {
+        width: 100%;
+    }
+
+    .informacoes-contato a {
+        font-weight: bold;
+        color: #00BAE4;
+        text-decoration: underline;
+    }
+}
+
+@media (max-width: 696px) {
+    section.sect-sobre {
+        height: 960px;
+    }
+
+    .img_sobre_alb {
+        float: left;
+        width: 20%;
+        margin: 12px;
+        opacity: 0.5;
+        transition: all 0.5s ease-out;
+    }
+
+    .contato-alb-sobre {
+        font-weight: bold;
+        text-decoration: underline;
+        color: #00b8e4;
+    }
+
+    .informacoes-contato a {
+        font-weight: bold;
+        color: #00BAE4;
+        text-decoration: underline;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    section.sect-home h3 {
+        font-size: 25px;
+    }
+
+    section.sect-home h5 {
+        font-size: 15px;
+    }
+
+    section.sect-sobre {
+        height: 1050px;
+    }
+
+    .contato-alb-sobre {
+        font-weight: bold;
+        text-decoration: underline;
+        color: #00b8e4;
+    }
+
+    .empresa-participacao {
+        padding-left: 0%;
+    }
+
+    .img_sobre_alb {
+        float: left;
+        width: 21%;
+        margin: 10px;
+        opacity: 0.5;
+        transition: all 0.5s ease-out;
+    }
+
+    section.sect-competencias {
+        width: 100%;
+        height: 1865px;
+        background-color: #060606;
+    }
+
+    div.alb-competencias-div {
+        width: 95%;
+    }
+
+    div.informacoes-contato {
+        position: relative;
+        top: 45%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+    }
+
+    .informacoes-contato a {
+        font-weight: bold;
+        color: #00BAE4;
+        text-decoration: underline;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    section.sect-sobre {
+        height: 1300px;
+    }
+
+    .img_sobre_alb {
+        float: left;
+        width: 44%;
+        margin: 10px;
+        opacity: 0.5;
+        transition: all 0.5s ease-out;
+    }
+
+    .contato-alb-sobre {
+        font-weight: bold;
+        text-decoration: underline;
+        color: #00b8e4;
+    }
+
+    section.sect-competencias {
+        height: 1815px;
+    }
+
+    .contato-alb-sobre {
+        font-weight: bold;
+        text-decoration: underline;
+        color: #00b8e4;
+    }
+
+    .informacoes-contato a {
+        font-weight: bold;
+        color: #00BAE4;
+        text-decoration: underline;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    section.sect-sobre {
+        height: 1000px;
+    }
+
+    .empresa-participacao {
+        padding-left: 0%;
+    }
+
+    .img_sobre_alb {
+        float: left;
+        width: 22%;
+        margin: 5px;
+        opacity: 0.5;
+        transition: all 0.5s ease-out;
+    }
+
+    .contato-alb-sobre {
+        font-weight: bold;
+        text-decoration: underline;
+        color: #00b8e4;
+    }
+
+    .informacoes-contato a {
+        font-weight: bold;
+        color: #00BAE4;
+        text-decoration: underline;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    section.sect-sobre {
+        height: 1250px;
+    }
+
+    .img_sobre_alb {
+        float: left;
+        width: 44%;
+        margin: 10px;
+        opacity: 0.5;
+        transition: all 0.5s ease-out;
+    }
+
+    .contato-alb-sobre {
+        font-weight: bold;
+        text-decoration: underline;
+        color: #00b8e4;
+    }
+
+    section.sect-competencias {
+        height: 1815px;
+    }
+
+    .alb-competencias-div[coluna="1"] ul.total-competencias>li {
+        width: 97%;
+    }
+
+    .alb-competencias-div[coluna="2"] ul.total-competencias>li {
+        width: 97%;
+    }
+
+    .alb-competencias-div[coluna="3"] ul.total-competencias>li {
+        width: 97%;
+    }
+
+    .alb-competencias-div[coluna="4"] ul.total-competencias>li {
+        width: 97%;
+    }
+
+    .alb-competencias-div[coluna="5"] ul.total-competencias>li {
+        width: 97%;
+    }
+
+    .informacoes-contato a {
+        font-weight: bold;
+        color: #00BAE4;
+        text-decoration: underline;
+    }
+}
+
+@media only screen and (max-width: 412px) {
+    section.sect-sobre {
+        height: 1245px;
+    }
+
+    .img_sobre_alb {
+        float: left;
+        width: 44%;
+        margin: 10px;
+        opacity: 0.5;
+        transition: all 0.5s ease-out;
+    }
+
+    h3.h3-numero-comp-eng {
+        color: #fff;
+        font-weight: bold;
+        padding: 15px 0 0 0;
+        font-size: 80%;
+    }
+
+    h3.h3-numero-comp {
+        position: relative;
+        top: 30%;
+        margin-right: -60%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        font-weight: bold;
+        font-size: 80%;
+    }
+
+    .contato-alb-sobre {
+        font-weight: bold;
+        text-decoration: underline;
+        color: #00b8e4;
+    }
+
+    section.sect-competencias {
+        height: 1780px;
+    }
+
+    .informacoes-contato a {
+        font-weight: bold;
+        color: #00BAE4;
+        text-decoration: underline;
+    }
+
+    .alb-competencias-div[coluna="1"] ul.total-competencias>li {
+        width: 97%;
+    }
+
+    .alb-competencias-div[coluna="2"] ul.total-competencias>li {
+        width: 97%;
+    }
+
+    .alb-competencias-div[coluna="3"] ul.total-competencias>li {
+        width: 97%;
+    }
+
+    .alb-competencias-div[coluna="4"] ul.total-competencias>li {
+        width: 97%;
+    }
+
+    .alb-competencias-div[coluna="5"] ul.total-competencias>li {
+        width: 97%;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .alb-competencias-div[coluna="1"] ul.total-competencias>li {
+        width: 98%;
+    }
+
+    .alb-competencias-div[coluna="2"] ul.total-competencias>li {
+        width: 98%;
+    }
+
+    .alb-competencias-div[coluna="3"] ul.total-competencias>li {
+        width: 98%;
+    }
+
+    .alb-competencias-div[coluna="4"] ul.total-competencias>li {
+        width: 98%;
+    }
+
+    .alb-competencias-div[coluna="5"] ul.total-competencias>li {
+        width: 98%;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    section.sect-sobre {
+        height: 1305px;
+    }
+
+    section.sect-competencias {
+        height: 1875px;
+    }
+
+    .alb-competencias-div[coluna="1"] ul.total-competencias>li {
+        width: 95%;
+    }
+
+    .alb-competencias-div[coluna="2"] ul.total-competencias>li {
+        width: 96%;
+    }
+
+    .alb-competencias-div[coluna="3"] ul.total-competencias>li {
+        width: 96%;
+    }
+
+    .alb-competencias-div[coluna="4"] ul.total-competencias>li {
+        width: 96%;
+    }
+
+    .alb-competencias-div[coluna="5"] ul.total-competencias>li {
+        width: 96%;
+    }
+}
+
+@media only screen and (max-width: 280px) {
+    section.sect-sobre {
+        height: 1850px;
+    }
+
+    .img_sobre_alb {
+        float: left;
+        width: 65%;
+        margin: 15px 0 0 40px;
+        opacity: 0.5;
+        transition: all 0.5s ease-out;
+    }
+
+    .contato-alb-sobre {
+        font-weight: bold;
+        text-decoration: underline;
+        color: #00b8e4;
+    }
+
+    section.sect-competencias {
+        width: 100%;
+        height: 1930px;
+        background-color: #060606;
+    }
+
+    h3.h3-numero-comp-eng {
+        color: #fff;
+        font-weight: bold;
+        padding: 15px 0 0 0;
+        font-size: 80%;
+    }
+
+    h3.h3-numero-comp {
+        position: relative;
+        top: 30%;
+        margin-right: -30%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        font-weight: bold;
+        font-size: 70%;
+    }
+
+    .alb-competencias-div[coluna="1"] ul.total-competencias>li {
+        width: 94%;
+    }
+
+    .alb-competencias-div[coluna="2"] ul.total-competencias>li {
+        width: 94%;
+    }
+
+    .alb-competencias-div[coluna="3"] ul.total-competencias>li {
+        width: 94%;
+    }
+
+    .alb-competencias-div[coluna="4"] ul.total-competencias>li {
+        width: 94%;
+    }
+
+    .alb-competencias-div[coluna="5"] ul.total-competencias>li {
+        width: 94%;
+    }
+
+    .informacoes-contato h6,
+    a {
+        font-size: 95%;
+    }
+
+    .informacoes-contato a {
+        font-weight: bold;
+        color: #00BAE4;
+        text-decoration: underline;
+    }
+}
