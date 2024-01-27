@@ -614,12 +614,28 @@ footer {
     }
 
     .alb-sect-sobre-informacoes .caixa-esquerda {
-        width: 40%;
+        width: 28%;
         float: right;
         height: auto;
         position: absolute;
         top: 5%;
-        right: 0px;
+        right: 4%;
+        bottom: 0px;
+        background-image: url(..//imagens/retrato_alb_bg.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media (max-width: 1650px) {
+    .alb-sect-sobre-informacoes .caixa-esquerda {
+        width: 45%;
+        float: right;
+        height: auto;
+        position: absolute;
+        top: 5%;
+        right: 5%;
         bottom: 0px;
         background-image: url(..//imagens/retrato_alb_bg.svg);
         background-repeat: no-repeat;
